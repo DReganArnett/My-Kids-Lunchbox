@@ -1,0 +1,18 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "http://our.lunches.com/foodSearch.schema.json",
+    "type": "object",
+    "properties": {
+        "foodTitle": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 50
+        },
+        "category": {
+          "type": "string",
+          "minimum": 0
+        }
+    },
+    "additionalProperties": false,
+    "required": []
+  }
