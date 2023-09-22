@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="Navbar"
+  >
+    <div
+      class="Navbar-loggedIn"
+    >
+      <span>
+        <button>
+          <a
+            aria-current="page"
+            class="active"
+            href="/"
+          >
+            Home
+          </a>
+        </button>
+      </span>
+      <span>
+        <button>
+          <a
+            href="/lunches"
+          >
+            Lunches
+          </a>
+        </button>
+      </span>
+      <span>
+        <button>
+          <a
+            href="/createlunch"
+          >
+            My Kitchen
+          </a>
+        </button>
+      </span>
+      <span>
+        <button>
+          <a
+            href="/users/reviews"
+          >
+            My Reviews
+          </a>
+        </button>
+      </span>
+      <span>
+        <button>
+          <a
+            href="/users/favorites"
+          >
+            My Favorites
+          </a>
+        </button>
+      </span>
+      <span>
+        <button>
+          <a
+            href="/users/profile/"
+          >
+            My Profile
+          </a>
+        </button>
+      </span>
+      <span>
+        <button>
+          <a
+            href="/"
+          >
+            Log Out
+          </a>
+        </button>
+      </span>
+    </div>
+  </div>
+</DocumentFragment>
+`;

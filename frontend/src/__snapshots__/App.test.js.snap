@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <div
+      class="App-container"
+    >
+      <div
+        class="Navbar"
+      >
+        <div
+          class="Navbar-loggedOut"
+        >
+          <span>
+            <button>
+              <a
+                aria-current="page"
+                class="active"
+                href="/"
+              >
+                Home
+              </a>
+            </button>
+          </span>
+          <span>
+            <button>
+              <a
+                href="/login"
+              >
+                Log In
+              </a>
+            </button>
+          </span>
+          <span>
+            <button>
+              <a
+                href="/register"
+              >
+                Sign Up
+              </a>
+            </button>
+          </span>
+        </div>
+      </div>
+      <div
+        class="Routes"
+      >
+        <div
+          class="Home"
+        >
+          <div
+            class="Home-container"
+          >
+            <div
+              class="Header"
+            >
+              <span
+                class="Header-h1"
+              >
+                My Kids' Lunchbox
+              </span>
+              <img
+                alt="red lunch box"
+                class="Header-lunchbox"
+                src="lunchbox.jpg"
+              />
+              <h4
+                class="Header-h4"
+              >
+                ...pack a lunch they'll actually eat!
+              </h4>
+              <hr />
+              <br />
+            </div>
+            <div
+              class="Home-loggedOut"
+            >
+              <br />
+              <br />
+              <h2>
+                New around here?
+              </h2>
+              <button>
+                <a
+                  href="/register"
+                >
+                  Sign Up Here!
+                </a>
+              </button>
+              <br />
+              <br />
+              <h2>
+                Let's pack some lunches!
+              </h2>
+              <button>
+                <a
+                  href="/login"
+                >
+                  Log In Here!
+                </a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

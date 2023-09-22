@@ -1,0 +1,376 @@
+.AddFoodForm {
+    color: sienna;
+    margin-top: 1em;
+}
+
+.AddFoodForm-container {
+    color: sienna;
+    background-color: darkseagreen;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-bottom: 2em;
+    margin: auto;
+    width: 20em;
+}
+
+.AddFoodForm-container,
+button {
+    margin-top: 1em;
+}
+
+.AddFoodForm-h2 {
+    margin-left: 4em;
+}
+
+.AddLunchForm {
+    color: sienna;
+    margin-top: 2em;
+}
+
+.AddLunchForm-container {
+    color: sienna;
+    background-color: darkseagreen;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-bottom: 2em;
+    margin: auto;
+    width: 30em;
+}
+
+.AddLunchForm
+textarea {
+    width: 30em;
+    height: 5em;
+}
+
+.AddLunchForm-container,
+button {
+    margin-top: 1em;
+}
+
+.AddLunchForm-h1 {
+    margin-left: 2em;
+}
+
+body {
+    font-family: Trebuchet MS;
+}
+
+.FavoriteCard{
+    color: sienna;
+    background-color: darkseagreen;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left: 2em;
+    margin-right: 2em;
+    padding-bottom: 1em;
+    margin-bottom: 2em;
+    width: 40em;
+}
+    
+.Header {
+    display: inline;
+    background-color: white;
+    text-align: left;
+    font-size: large;
+    color: olivedrab;
+    /* margin-left: 2em; */
+}
+
+.Header-h1 {
+        background-color: white;
+        height: 200px;
+        font-size: xx-large;
+        margin-left: 1em;
+    }
+
+
+.Header-h4 {
+    background-color: white;
+    margin-left: 5em;
+    font-size: x-large;
+}
+
+.Home-container {
+    color: sienna;
+}
+
+.Home-loggedIn, .Home-loggedOut {
+    text-align: center;
+}
+
+img {
+    height: 100px;
+}
+
+.LoginForm-container {
+    color: sienna;
+    background-color: darkseagreen;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left: 2em;
+    padding-bottom: 1em;
+    margin: auto;
+    width: 20em;
+}
+
+.LunchCard {
+    color: sienna;
+    background-color: darkseagreen;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 8em;
+    margin-bottom: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 1.2em;
+    width: 50em;
+}
+
+.LunchList-header {
+    color: sienna;
+    margin-left: 2em;
+}
+
+.LunchList-emptySearchResults {
+    color: sienna;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.LunchDetails-header {
+    color: sienna;
+    margin-top: 2em;
+    margin-left: 2em;
+}
+
+.LunchDetails-container {
+    color: sienna;
+    margin-left: 6em;
+}
+
+.LunchDetails-foodList {
+    color: sienna;
+    margin-left: 3em;
+}
+
+.LunchDetails-foods {
+    column-count: 3;
+    margin-left: 4em;
+    margin-right: -11em;
+}
+
+.LunchReviewCard {
+    color: sienna;
+    text-align: center;
+    background-color: tan;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-top: 1em;
+    padding-right: 2em;
+    padding-left: 2em;
+    padding-bottom: 1em;
+    margin-left: 3em;
+    margin-bottom: 1em;
+    width: 40em;
+}
+
+.Navbar,
+    span {
+        text-align: center;
+        margin-bottom: 1em;
+        margin-left: 1em;
+    }
+
+.Profile-container {
+    color: sienna;
+    margin-left: 10em;
+    margin-right: 4em;
+    margin-top: 1em;
+    column-count: 2;
+    column-gap: 50px;
+}
+
+.ProfileForm {
+    color: sienna;
+    background-color: darkseagreen;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: -1em;
+    padding-left: 2em;
+    padding-bottom: 1em;
+    width: 20em;
+}
+
+.ReviewList-container {
+    color: sienna;
+}
+
+.ReviewList-header {
+    color: sienna;
+    margin-left: 2em;
+}
+
+.ReviewList-emptyMessage {
+    color: sienna;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.ReviewCard-container {
+    color: sienna;
+    text-align: center;
+    background-color: darkseagreen;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-top: 1em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    padding-left: 2em;
+    margin-left: 8em;
+    margin-bottom: 1em;
+    width: 40em;
+}
+
+.ReviewCard-updateForm {
+    color: sienna;
+    text-align: center;
+    background-color: tan;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-right: 3em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin: auto;
+    width: 15em;
+}
+
+.ReviewUpdateForm-textarea {
+    width: 200px;
+    height: 75px;
+    margin-left: 10px;
+}
+
+.ReviewUpdateForm-submitButton {
+    text-align: center;
+    margin-left: 1em;
+}
+
+.RegistrationForm-container {
+    color: sienna;
+    background-color: darkseagreen;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left: 2em;
+    padding-bottom: 1em;
+    margin: auto;
+    width: 20em;
+}
+
+.ReviewForm-container {
+    color: sienna;
+    text-align: center;
+    background-color: darkseagreen;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-top: 2em;
+    padding-right: 2em;
+    padding-left: 2em;
+    padding-bottom: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin: auto;
+    width: 30em;
+}
+
+.ReviewForm-reviewTextArea {
+    width: 30em;
+    height: 20em;
+}
+
+.SearchForm {
+    color: sienna;
+    text-align: center;
+}
+
+.UserFavoriteCardList {
+    margin-left: 8em;
+}
+.UserFavoritesList-header {
+    color: sienna;
+    margin-left: 2em;
+}
+
+.UserFavoritesList-lunches {
+    margin-left: 6em;   
+}
+
+.UserFavoritesList-emptyMessage{
+    color: sienna;
+    text-align: center;
+    margin-top: 100px;
+}
+
+/* .LunchFoodCard {
+    color: sienna;
+    display: inline-block;
+    background-color: darkseagreen;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    padding-top: 1em;
+    padding-left: 2em;
+    width: 15em;
+}
+
+.LunchFoodCardList {
+    margin-left: 2em;
+}
+.LunchFoodCard,
+p {
+    color: sienna;
+} */
+
+
+/* .FoodList-container {
+    color: sienna;
+    margin-left: 4em;
+}
+
+.FoodList-addFoodButton {
+    text-align: center;
+}
+
+.FoodList-createLunchButton {
+    text-align: center;
+}
+
+.FoodList-foods {
+    margin-left: 6em;
+}
+
+.FoodCardList {
+    margin-left: 6em;
+}
+.FoodCard {
+    color: sienna;
+    display: inline-block;
+    background-color: darkseagreen;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    padding-left: 2em;
+    width: 15em;
+} */
